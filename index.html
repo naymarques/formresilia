@@ -13,26 +13,28 @@
     <title>Formulário de inscrições Resilia</title>
   </head>
   <body>
-    <div class = "cadastro">
+    <div class="cadastro">
       <h1>Inscreva-se aqui!</h1>
       <form class="formulario">
-        <div class="dados1">
-          <label for="name">Nome Completo:</label>
-          <input type="text" id="nome" name="nome-comp" />
-          <label for="mail">E-mail:</label>
-          <input type="email" id="mail" name="email" />
-          <label for="number">CPF:</label>
-          <input type="number" id="CPF" name="CPF" min="0"/>
-        </div>  
-        <p>Sexo</p>
-          <div class="sexo">
-              <input type="radio" id="Feminino" name="Sexo"/>
-              <label for="feminino">Feminino</label>
-              <input type="radio" id="Masculino" name="Sexo"/></span>
-              <label for="Masculino">Masculino</label>
+        <div class="up">
+          <label class="label1" for="name">Nome Completo:</label>
+          <input class="input1" type="text" id="nome" name="nome-comp" />
+          <label class="label1" for="mail">E-mail:</label>
+          <input class="input1" type="email" id="mail" name="email" />
+          <label class="label1" for="number">CPF:</label>
+          <input class="input1" type="number" id="CPF" name="CPF" min="0" />
+        </div>
+        <div class="sexo">
+          <h2>Gênero de Identificação</h2>
+          <ul>
+            <input class="input2" type="radio" id="Feminino" name="Sexo" />
+            <label class="label2" for="feminino">Feminino</label>
+            <input class="input2" type="radio" id="Masculino" name="Sexo" />
+            <label class="label2" for="Masculino">Masculino</label>
+          </ul>
         </div>
         <button type="submit" id="botaoenviar">Enviar</button>
       </form>
-  </div>
+    </div>
   </body>
 </html>
